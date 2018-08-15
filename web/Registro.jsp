@@ -10,14 +10,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro usuario</title>
+        
     </head>
     <body>
         <h1>Formulario de registro</h1>
-        <form>
+        <form action="#" method="get" onsubmit="return validar()">
             <p>Correo electronico :<input type="text" name="email" id="email"></p>
             <p>     Contraseña    :<input type="pass" name="pass" id="pass"></p>
             <p> Repita contraseña :<input type="pass" name="repass" id="repass"><p>
-            <p><input type="submit" name="enviar" id="enviar" value="Enviar"><p>
+            <p><input type="submit" name="enviar" id="enviar" value="Enviar"  ><p>
         </form>
+        <script src="js/jscript.js"></script>
     </body>
+    
 </html>
